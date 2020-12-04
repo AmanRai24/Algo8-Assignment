@@ -12,7 +12,7 @@ class blog extends React.Component {
 getArticles() {
     axios
       .get(
-        "http://newsapi.org/v2/everything?q=india&apiKey=c66d28a440d54982b5ee271c8bc0299c"
+        "https://newsapi.org/v2/everything?q=india&apiKey=c66d28a440d54982b5ee271c8bc0299c"
       )
       .then(response =>
         response.data.articles.map(article => ({
