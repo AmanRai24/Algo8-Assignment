@@ -2,17 +2,14 @@ import React from "react";
 import axios from "axios";
 
 class blog extends React.Component {
-  state = {
+    state = {
     articles: [],
     isLoading: true,
     errors: null
-  };
+};
 
-  
 
-    
-
-  getArticles() {
+getArticles() {
     axios
       .get(
         "http://newsapi.org/v2/everything?q=india&apiKey=c66d28a440d54982b5ee271c8bc0299c"
@@ -40,7 +37,7 @@ class blog extends React.Component {
   }
 
 
-  render() {
+render() {
     const { isLoading, articles } = this.state;
     return (
       <React.Fragment>
@@ -60,7 +57,7 @@ class blog extends React.Component {
               );
             })
           ) : (
-            <p>Loading...</p>
+            <p style={{color:'red',textAlign:'center', fontSize:'30px'}}>Loading...</p>
           )}
         </div>
       </React.Fragment>

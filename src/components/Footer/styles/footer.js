@@ -39,10 +39,6 @@ export const Link = styled.a`
   margin-bottom: 5px;
   font-size: 14px;
   text-decoration: none;
-  &:hover {
-      color: blue;
-      transition: 200ms ease-in;
-  }
 `;
 
 export const Title = styled.p`
