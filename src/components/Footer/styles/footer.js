@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 1px 50px;
-  height: auto;
+  padding: 1px 30px;
   background: black;
   @media (max-width: 1000px) {
-    padding: 2px 20px;
+    padding: 0px 10px;
   }
 `;
 
@@ -41,13 +40,13 @@ export const Link = styled.a`
   font-size: 14px;
   text-decoration: none;
   &:hover {
-      color: white;
+      color: blue;
       transition: 200ms ease-in;
   }
 `;
 
 export const Title = styled.p`
-  font-size: 17px;
+  font-size: 18px;
   color: #fff;
   margin-bottom: 1px;
   font-weight: bold;

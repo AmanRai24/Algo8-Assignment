@@ -10,9 +10,8 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLink to='/'>
-          BLOGS
+          <h3>BLOGS</h3>
         </NavLink>
-        {/* <Bars /> */}
         <NavMenu>
           <NavLink to='/home' activeStyle>
             Home

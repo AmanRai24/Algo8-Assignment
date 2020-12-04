@@ -8,18 +8,16 @@ export function FooterContainer() {
             <Footer.Wrapper>
             <Footer.Row>
                 <Footer.Column>
-                <Footer.Title>About Us</Footer.Title>
-                    <Footer.Link href="#">Story</Footer.Link>
-                    <Footer.Link href="#">Testimonials</Footer.Link>
+                <Footer.Link href="#" style={{'color':'#15cdfc' , 'font-size':'17px', 'margin-top':'19px'}}>BLOGS</Footer.Link>
+                <Footer.Link >&copy; All rights reserved</Footer.Link>
                 </Footer.Column>
                 <Footer.Column>
                 <Footer.Title>Contact Us</Footer.Title>
-                    <Footer.Link href="#">Delhi,India</Footer.Link>
-                    <Footer.Link href="#">9876543210</Footer.Link>
+                    <Footer.Link>Delhi,India</Footer.Link>
+                    <Footer.Link>9876543210</Footer.Link>
                 </Footer.Column>
                 <Footer.Column>
                 <Footer.Title>Social</Footer.Title>
-                    <Footer.Link href="#"><Icon className="fab fa-youtube" />Youtube</Footer.Link>
                     <Footer.Link href="#"><Icon className="fab fa-github" />Github</Footer.Link>
                 </Footer.Column>
             </Footer.Row>
