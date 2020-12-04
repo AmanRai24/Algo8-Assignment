@@ -57,7 +57,7 @@ render() {
               );
             })
           ) : (
-            <p style={{color:'red',textAlign:'center', fontSize:'30px'}}>Loading...</p>
+            <p style={{color:'red',textAlign:'center', fontSize:'30px', height:'57vh'}}>Loading...</p>
           )}
         </div>
       </React.Fragment>

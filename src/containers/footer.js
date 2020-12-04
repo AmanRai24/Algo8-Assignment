@@ -9,7 +9,7 @@ export function FooterContainer() {
             <Footer.Row>
                 <Footer.Column>
                 <Footer.Link href="#" style={{'color':'#15cdfc' , 'font-size':'17px', 'margin-top':'19px'}}>BLOGS</Footer.Link>
-                <Footer.Link style={{'color':'white'}}>&copy; All rights reserved</Footer.Link>
+                <Footer.Link style={{'color':'white'}}>2020&copy; All rights reserved</Footer.Link>
                 </Footer.Column>
                 <Footer.Column>
                 <Footer.Title>Contact Us</Footer.Title>
