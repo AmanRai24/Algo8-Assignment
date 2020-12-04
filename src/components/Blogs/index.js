@@ -8,6 +8,10 @@ class blog extends React.Component {
     errors: null
   };
 
+  
+
+    
+
   getArticles() {
     axios
       .get(
@@ -34,6 +38,7 @@ class blog extends React.Component {
   componentDidMount() {
     this.getArticles();
   }
+
 
   render() {
     const { isLoading, articles } = this.state;

@@ -10,11 +10,10 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
-        {/* <Route path='/' exact component={Post} /> */}
-        {/* <Route path='/post' component={Post} /> */}
+        <Route path='/' exact component={Blogs} />
+        <Route path='/blogs' component={Blogs} />
         <Route path='/contact' component={Contact} />
       </Switch>
-      <Blogs/>
       <FooterContainer/>
     </Router>
   );

@@ -7,10 +7,18 @@ const Contact = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '90vh'
+        height: '76vh'
       }}
     >
-      <h1>Contact Us:</h1>
+      <h1 style={{color:'blue'}}> Contact Us:
+          <p style={{fontSize:'20px',textAlign: 'center', color:'black'}}>Aman</p>
+          <p style={{fontSize:'20px',textAlign: 'center', color:'black'}}>Delhi,India</p>
+          <p style={{fontSize:'20px',textAlign: 'center' , color:'black'}}>9876543210</p>
+      </h1>
+      
+
+      
+      
       
     </div>
   );
