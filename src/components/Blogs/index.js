@@ -39,17 +39,17 @@ class blog extends React.Component {
     const { isLoading, articles } = this.state;
     return (
       <React.Fragment>
-        <h2>All Blogs</h2>
+        <p style={{margin:'14px', fontSize:'26px' , fontWeight:'bolder', fontFamily:'cursive'}}>All Blogs</p>
         <div>
           {!isLoading ? (
             articles.map(article => {
               const { description, title, url } = article;
               return (
                 <div key={title}>
-                    <ul style={{border:'1px solid'}}>
-                    <li><p>{title}</p></li> 
+                    <ul style={{border:'1px solid', boxShadow:'12px 12px 2px 1px rgba(0, 0, 255, .2)' , margin:'20px' , paddingBottom:'20px'}}>
+                    <li><p style={{color:'green'}}>{title}</p></li> 
                     <p>{description}</p>
-                    <a target='_blank' href={article.url}>{url}</a>
+                    <button style={{padding:'5px'}}><a target='_blank' href={article.url} style={{textDecoration:'none', color:'red'}}>ReadMore</a></button>
                     </ul>
                 </div>
               );
