@@ -2,7 +2,7 @@
 Simple blog theme using React and REST API.
 
 # Preview
-`Video recording of the app:`*https://drive.google.com/file/d/1WxQjHu-AWCAgVzrUJjKgVW6v0jzNmAqm/view?usp=sharing*
+`Video recording of the app:`*https://drive.google.com/file/d/1zfT4-rY8V1xuDRmjLYztaBBRy-IcXqsS/view?usp=sharing*
 
 ## Folder Structure
     ├── public
